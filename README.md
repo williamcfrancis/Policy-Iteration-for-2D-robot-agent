@@ -1,4 +1,4 @@
-# Policy Iteration Algorithm
+## Policy Iteration Algorithm
 Policy Iteration is a way to find the optimal policy for given states and actions
 
 Let us assume we have a policy (𝝅 : S → A ) that assigns an action to each state. Action 𝝅(s) will be chosen each time the system is at state s.
