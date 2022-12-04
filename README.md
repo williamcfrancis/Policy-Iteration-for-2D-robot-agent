@@ -26,3 +26,26 @@ P(does not move |control is north) = 0.1.\
 ![image](https://user-images.githubusercontent.com/38180831/205470046-f48aa714-dcd1-4945-bb87-4f40206ae433.png)
 
 Similarly, if the robot desired to go east, it may end up in the cells to its north, south, or stay put at the original cell with total probability 0.3 and actually move to the cell east with probability 0.7. The cost pays a cost of 1 (i.e., reward is -1) for each control input it takes, regardless of the outcome. If the robot ends up at a state marked as an obstacle, it gets a reward of -10 for each time-step that it remains inside the obstacle cell. We would like to implement policy iteration to find the best trajectory for the robot to go from the blue cell to the green cell.
+
+## Results
+
+#### Plotting the initial environment to verify that it confirms to the picture in the question,
+![image](https://user-images.githubusercontent.com/38180831/205470113-67a7f94e-b127-4ede-a1d0-ac6a57821088.png)
+
+#### Plot of the value function after 1 iteration:
+![image](https://user-images.githubusercontent.com/38180831/205470128-b53a3df2-d4b7-4a47-98cf-9f79ccb8876b.png)
+
+#### Final plot of the value function:
+![image](https://user-images.githubusercontent.com/38180831/205470140-49d34993-85db-46b2-9828-37755c229450.png)
+
+#### Plot of the policy after 1 iteration:
+![image](https://user-images.githubusercontent.com/38180831/205470153-2ac7cfb1-8693-47c7-8c10-029c51ddcdcc.png)
+
+#### Plot of the policy after 2 iterations:
+![image](https://user-images.githubusercontent.com/38180831/205470174-3b24b34f-a44e-486f-b2a1-0af19899e579.png)
+
+#### Plot of the policy after 3 iterations
+![image](https://user-images.githubusercontent.com/38180831/205470189-3f3b0270-8537-4827-a1cf-ae87266f4144.png)
+
+#### Plot of the policy after 4 iterations
+![image](https://user-images.githubusercontent.com/38180831/205470196-baa21dca-1c77-4fe6-8671-4264b15fd4c0.png)
