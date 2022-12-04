@@ -23,5 +23,6 @@ P(moves west |control is north) = 0.1,\
 P(moves east |control is north) = 0.1,\
 P(does not move |control is north) = 0.1.\
 
-![image](https://user-images.githubusercontent.com/38180831/205470031-b4ff1551-99c6-4455-823e-35fdcf105777.png)
 ![image](https://user-images.githubusercontent.com/38180831/205470046-f48aa714-dcd1-4945-bb87-4f40206ae433.png)
+
+Similarly, if the robot desired to go east, it may end up in the cells to its north, south, or stay put at the original cell with total probability 0.3 and actually move to the cell east with probability 0.7. The cost pays a cost of 1 (i.e., reward is -1) for each control input it takes, regardless of the outcome. If the robot ends up at a state marked as an obstacle, it gets a reward of -10 for each time-step that it remains inside the obstacle cell. We would like to implement policy iteration to find the best trajectory for the robot to go from the blue cell to the green cell.
