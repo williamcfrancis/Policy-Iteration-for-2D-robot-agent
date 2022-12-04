@@ -16,12 +16,12 @@ Value function = the expected reward collected at the first step + expected disc
 ## The 2D Robot Agent Problem
 
 To run and evaluate the policy iteration algorithm, we assume a 2D robot agent problem.\
-Consider the following Markov Decision Process. The state-space is a 10×10 grid, cells that are obstacles are marked in gray. The initial state of the robot is in blue and our desired terminal state is in green. The robot gets a reward of 10 if it reaches the desired terminal state with a discount factor of 0.9. At each non-obstacle cell, the robot can attempt to move to any of the immediate neighboring cells using one of the four controls (North, East, West and South). The robot cannot move diagonally. The move succeeds with probability 0.7 and with remainder probability 0.3 the robot can end up at some other cell as follows:\
+Consider the following Markov Decision Process. The state-space is a 10×10 grid, cells that are obstacles are marked in gray. The initial state of the robot is in blue and our desired terminal state is in green. The robot gets a reward of 10 if it reaches the desired terminal state with a discount factor of 0.9. At each non-obstacle cell, the robot can attempt to move to any of the immediate neighboring cells using one of the four controls (North, East, West and South). The robot cannot move diagonally. The move succeeds with probability 0.7 and with remainder probability 0.3 the robot can end up at some other cell as follows:
 
 P(moves north |control is north) = 0.7,\
 P(moves west |control is north) = 0.1,\
 P(moves east |control is north) = 0.1,\
-P(does not move |control is north) = 0.1.\
+P(does not move |control is north) = 0.1.
 
 ![image](https://user-images.githubusercontent.com/38180831/205470046-f48aa714-dcd1-4945-bb87-4f40206ae433.png)
 
