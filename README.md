@@ -1,6 +1,6 @@
 # Policy Iteration Algorithm for Optimal Robot Navigation
 ## Overview
-Policy Iteration is a powerful algorithm for finding the optimal policy for a given set of states and actions. In this project, we applied policy iteration to solve a complex navigation problem for a 2D robot.
+Policy Iteration is a powerful algorithm for finding the optimal policy for a given set of states and actions. In this project, I applied policy iteration to solve a complex navigation problem for a 2D robot.
 
 ### Policy Iteration Algorithm
 
