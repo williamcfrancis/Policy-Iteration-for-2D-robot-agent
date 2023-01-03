@@ -59,3 +59,5 @@ Similarly, if the robot desired to go east, it may end up in the cells to its no
 #### Plot of the policy after 4 iterations
 
 ![image](https://user-images.githubusercontent.com/38180831/205470196-baa21dca-1c77-4fe6-8671-4264b15fd4c0.png)
+
+Through the policy iteration algorithm, we were able to successfully find the optimal policy for the 2D robot navigation problem. This involved calculating the value function for each state under a given policy, and then improving the policy by selecting the action that resulted in the highest value for each state. By repeating this process until convergence, we were able to determine the optimal actions for the robot to take in order to reach the terminal state while minimizing cost and avoiding obstacles.
