@@ -32,23 +32,23 @@ Similarly, if the robot desired to go east, it may end up in the cells to its no
 
 ## Results
 
-#### Plotting the initial environment to verify that it confirms to the picture in the question,
+I first verified that the initial environment matches the problem description by plotting it:
 ![image](https://user-images.githubusercontent.com/38180831/205470113-67a7f94e-b127-4ede-a1d0-ac6a57821088.png)
 
-#### Plot of the value function after 1 iteration:
+Next, I plotted the value function after one iteration to see how it was converging towards the optimal value:
 ![image](https://user-images.githubusercontent.com/38180831/205470128-b53a3df2-d4b7-4a47-98cf-9f79ccb8876b.png)
 
-#### Final plot of the value function:
+Finally, I plotted the final value function to see the optimal values for each state:
 ![image](https://user-images.githubusercontent.com/38180831/205470140-49d34993-85db-46b2-9828-37755c229450.png)
 
-#### Plot of the policy after 1 iteration:
+I also plotted the policy after one iteration to see how it was improving:
 ![image](https://user-images.githubusercontent.com/38180831/205470153-2ac7cfb1-8693-47c7-8c10-029c51ddcdcc.png)
 
-#### Plot of the policy after 2 iterations:
+Policy after 2 iterations:
 ![image](https://user-images.githubusercontent.com/38180831/205470174-3b24b34f-a44e-486f-b2a1-0af19899e579.png)
 
-#### Plot of the policy after 3 iterations
+Policy after 3 iterations
 ![image](https://user-images.githubusercontent.com/38180831/205470189-3f3b0270-8537-4827-a1cf-ae87266f4144.png)
 
-#### Plot of the policy after 4 iterations
+Finally, I plotted the final policy to see the optimal actions for each state:
 ![image](https://user-images.githubusercontent.com/38180831/205470196-baa21dca-1c77-4fe6-8671-4264b15fd4c0.png)
